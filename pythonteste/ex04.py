@@ -1,0 +1,8 @@
+n1 = input("digite o que seu coração mandar: ")
+print("o tipo primitivo desse valor é {}".format(type(n1)))
+print("só tem espaços? {}".format(n1.isspace()))
+print("é um número? {}".format(n1.isdigit()))
+print("é alfabético? {}".format(n1.isalpha()))
+print("é alfanumérico? {}".format(n1.isalnum()))    
+print("é em maiúsculas? {}".format(n1.isupper))
+print("é um numero decimal? {}".format(n1.isdecimal))

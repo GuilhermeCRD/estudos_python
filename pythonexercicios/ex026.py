@@ -1,0 +1,5 @@
+name = str(input('Digite um nome: ')).strip().upper()
+print('O seu nome contem um total de {} letras. '.format(name.count('A')))
+space = name.replace(' ', '')
+print('A primeira letra A do seu nome esta na posição {}.'.format(name.find('A')+1))
+print('A ultima letra A do seu nome esta na posição {}.'.format(name.rfind('A')+1))
