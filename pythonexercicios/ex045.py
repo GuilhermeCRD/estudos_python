@@ -29,8 +29,6 @@ if computador == 0: # Computador escolheu pedra
         print('Papel vence pedra, VOCE VENCEU!!')
     elif jogador == 2: #Jogador escolheu tesoura
         print('\033[7;30;41mTesoura vence papel, VOCE PERDEU!!\033[m')
-    else:
-        print ('JOGADA INVALIDA')
 elif computador == 1: # computador jogou papel
     if jogador == 0: #jogador jogou pedra
         print('\033[7;30;41mTesoura vence papel, VOCE PERDEU!!\033[m')
@@ -38,8 +36,6 @@ elif computador == 1: # computador jogou papel
         print('AS JOGADAS EMPATARAM')
     elif jogador == 2: #jogador jogou tesoura
         print('Tesoura vence papel, VOCE VENCEU!!')
-    else:
-        print('JOGADA INVALIDA')
 elif computador == 2: #computador jogou tesoura
     if jogador == 0: #jogador jogou pedra
         print('Pedra vence tesoura, VOCE VENCEU!!')
@@ -47,5 +43,3 @@ elif computador == 2: #computador jogou tesoura
         print('\033[7;30;41mTesoura vence papel, VOCE PERDEU!!\033[m')
     elif jogador == 2: #jogador jogou tesoura
         print('AS JOGADAS EMPATARAM')
-    else:
-        print('JOGADA INVALIDA')
