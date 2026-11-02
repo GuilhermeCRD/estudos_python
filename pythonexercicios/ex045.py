@@ -9,8 +9,7 @@ print (
     '\n[2] TESOURA'
 )
 jogador = int(input('Qual sua jogada? '))
-
-if jogador not in (0, 1, 2):
+if jogador not in (0, 1, 2): #Corrigindo o erro de o numero for maior de 2
     print('Jogada inválida! Escolha entre 0, 1 e 2.')
     exit()
 print('JO')
